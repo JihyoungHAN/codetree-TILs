@@ -1,3 +1,6 @@
-arr = list(input().split("0"))
-firstArr = list(map(int, arr[0].split()))
-print(firstArr[-1] + firstArr[-2] + firstArr[-3])
+arr = list(map(int, input().split()))
+
+for i in range(0, len(arr)):
+    if arr[i] == 0:
+        print(arr[i-1] + arr[i-2] + arr[i-3])
+        break;
