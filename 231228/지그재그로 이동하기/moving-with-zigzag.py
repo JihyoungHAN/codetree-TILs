@@ -18,7 +18,7 @@ while result != B:
             distance += 1
             if result == B: 
                 break; 
-    num += 1
+    num *= 2
     time += 1 
     
 
