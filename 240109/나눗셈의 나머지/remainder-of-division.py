@@ -6,7 +6,7 @@ while True:
     rem = a % b 
     cntArr[rem] += 1
     a = div
-    if div == 0: 
+    if div <= 1: 
         break 
 
 result = 0
