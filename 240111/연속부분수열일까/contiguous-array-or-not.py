@@ -12,5 +12,7 @@ for i in range(numA):
             else:
                 check = "No"
                 break
+        if check == "Yes":
+            break
 
 print(check)
