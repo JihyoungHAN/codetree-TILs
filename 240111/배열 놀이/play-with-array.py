@@ -17,3 +17,4 @@ for  i in range(q):
     elif questions[i][0] == 3: 
         for i in range(questions[i][1]-1, questions[i][2]):
             print(arr[i], end=" ")
+        print("")
