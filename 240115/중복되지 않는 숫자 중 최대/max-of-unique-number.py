@@ -19,6 +19,6 @@ while True:
     if isDup == 0 and maxVal != 0:
         print(maxVal)
         break
-    elif isDup == 0 and maxVal == 0:
+    elif isDup == 1 and maxVal == 0:
         print(-1)
         break
