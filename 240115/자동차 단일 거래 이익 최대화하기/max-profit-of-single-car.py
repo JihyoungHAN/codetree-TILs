@@ -5,7 +5,7 @@ maxProfit = 0
 
 for i in range(nYear-1):
     for j in range(i+1, nYear):
-        if i < j and (j-i) > maxProfit: 
-            maxProfit = j-i
+        if arr[i] < arr[j] and (arr[j]-arr[i]) > maxProfit: 
+            maxProfit = arr[j]-arr[i]
 
 print(maxProfit)
