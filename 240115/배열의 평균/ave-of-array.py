@@ -15,4 +15,4 @@ for i in range(4):
 print("")
 
 # whole average 
-print((sum(arr[0])+sum(arr[1]))/8)
+print(round((sum(arr[0])+sum(arr[1]))/8, 1))
