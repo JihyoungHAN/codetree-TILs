@@ -12,8 +12,10 @@ for i in range(1, len(stringA)):
         letter = stringA[i]
         arr.append(cnt)
         arr.append(letter)
+        strCnt += 1
+        strCnt += len(str(cnt))
         cnt = 1
-        strCnt += 2
+        
 
 arr.append(cnt)
 print(strCnt)
