@@ -3,7 +3,6 @@ arr = []
 letter = stringA[0]
 arr.append(letter)
 cnt = 1
-strCnt = 2
 
 for i in range(1, len(stringA)):
     if letter == stringA[i]:   
@@ -12,12 +11,10 @@ for i in range(1, len(stringA)):
         letter = stringA[i]
         arr.append(cnt)
         arr.append(letter)
-        strCnt += 1
-        strCnt += len(str(cnt))
         cnt = 1
-        
+
 
 arr.append(cnt)
-print(strCnt)
+print(len(arr))
 for i in arr:
     print(i, end="")
